@@ -7,7 +7,7 @@ This program creates an example heightmap to show how the algorithm works, then 
 The main functions are IntegrateHorizontal, IntegrateVertical, Integrate2D each allowing to pass the number of iterations, a value as low as 10 should produce visible changes. Choosing the right quantization parameter is important, a very small one should recreate the original heightmap, while a too high one can produce a smoothed terrain. The deltatime dt can go from 0 to about 0.5, a value higher than 0.4 is advised.
 
 
-### Horizontal integration example
+## 1D examples
 
 <img src="/images/screen0.png" width="320">  
 
@@ -16,8 +16,6 @@ Original heightmap
 <img src="/images/screen_h60_24.png" width="320">  
 
 Horizontally flattened heightmap (24 iterations)
-
-### Vertical integration example
 
 <img src="/images/screen_v60_24.png" width="320">  
 
